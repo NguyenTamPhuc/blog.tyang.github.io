@@ -1,0 +1,77 @@
+#!/bin/bash
+echo "Creating group"
+az group create -n ok -l eastus
+echo "1/37 Creating az_australiacentral_0 in location australiacentral"
+az vm create --resource-group ok --location australiacentral --name az_australiacentral_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "2/37 Creating az_australiaeast_0 in location australiaeast"
+az vm create --resource-group ok --location australiaeast --name az_australiaeast_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "3/37 Creating az_australiasoutheast_0 in location australiasoutheast"
+az vm create --resource-group ok --location australiasoutheast --name az_australiasoutheast_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "4/37 Creating az_brazilsouth_0 in location brazilsouth"
+az vm create --resource-group ok --location brazilsouth --name az_brazilsouth_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "5/37 Creating az_canadacentral_0 in location canadacentral"
+az vm create --resource-group ok --location canadacentral --name az_canadacentral_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "6/37 Creating az_canadaeast_0 in location canadaeast"
+az vm create --resource-group ok --location canadaeast --name az_canadaeast_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "7/37 Creating az_centralindia_0 in location centralindia"
+az vm create --resource-group ok --location centralindia --name az_centralindia_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "8/37 Creating az_centralus_0 in location centralus"
+az vm create --resource-group ok --location centralus --name az_centralus_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "9/37 Creating az_eastasia_0 in location eastasia"
+az vm create --resource-group ok --location eastasia --name az_eastasia_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "10/37 Creating az_eastus_0 in location eastus"
+az vm create --resource-group ok --location eastus --name az_eastus_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "11/37 Creating az_eastus2_0 in location eastus2"
+az vm create --resource-group ok --location eastus2 --name az_eastus2_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "12/37 Creating az_francecentral_0 in location francecentral"
+az vm create --resource-group ok --location francecentral --name az_francecentral_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "13/37 Creating az_germanywestcentral_0 in location germanywestcentral"
+az vm create --resource-group ok --location germanywestcentral --name az_germanywestcentral_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "14/37 Creating az_japaneast_0 in location japaneast"
+az vm create --resource-group ok --location japaneast --name az_japaneast_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "15/37 Creating az_japanwest_0 in location japanwest"
+az vm create --resource-group ok --location japanwest --name az_japanwest_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "16/37 Creating az_jioindiawest_0 in location jioindiawest"
+az vm create --resource-group ok --location jioindiawest --name az_jioindiawest_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "17/37 Creating az_koreacentral_0 in location koreacentral"
+az vm create --resource-group ok --location koreacentral --name az_koreacentral_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "18/37 Creating az_koreasouth_0 in location koreasouth"
+az vm create --resource-group ok --location koreasouth --name az_koreasouth_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "19/37 Creating az_northcentralus_0 in location northcentralus"
+az vm create --resource-group ok --location northcentralus --name az_northcentralus_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "20/37 Creating az_northeurope_0 in location northeurope"
+az vm create --resource-group ok --location northeurope --name az_northeurope_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "21/37 Creating az_norwayeast_0 in location norwayeast"
+az vm create --resource-group ok --location norwayeast --name az_norwayeast_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "22/37 Creating az_qatarcentral_0 in location qatarcentral"
+az vm create --resource-group ok --location qatarcentral --name az_qatarcentral_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "23/37 Creating az_southafricanorth_0 in location southafricanorth"
+az vm create --resource-group ok --location southafricanorth --name az_southafricanorth_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "24/37 Creating az_southcentralus_0 in location southcentralus"
+az vm create --resource-group ok --location southcentralus --name az_southcentralus_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "25/37 Creating az_southeastasia_0 in location southeastasia"
+az vm create --resource-group ok --location southeastasia --name az_southeastasia_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "26/37 Creating az_southindia_0 in location southindia"
+az vm create --resource-group ok --location southindia --name az_southindia_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "27/37 Creating az_swedencentral_0 in location swedencentral"
+az vm create --resource-group ok --location swedencentral --name az_swedencentral_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "28/37 Creating az_switzerlandnorth_0 in location switzerlandnorth"
+az vm create --resource-group ok --location switzerlandnorth --name az_switzerlandnorth_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "29/37 Creating az_uaenorth_0 in location uaenorth"
+az vm create --resource-group ok --location uaenorth --name az_uaenorth_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "30/37 Creating az_uksouth_0 in location uksouth"
+az vm create --resource-group ok --location uksouth --name az_uksouth_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "31/37 Creating az_ukwest_0 in location ukwest"
+az vm create --resource-group ok --location ukwest --name az_ukwest_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "32/37 Creating az_westcentralus_0 in location westcentralus"
+az vm create --resource-group ok --location westcentralus --name az_westcentralus_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "33/37 Creating az_westeurope_0 in location westeurope"
+az vm create --resource-group ok --location westeurope --name az_westeurope_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "34/37 Creating az_westindia_0 in location westindia"
+az vm create --resource-group ok --location westindia --name az_westindia_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "35/37 Creating az_westus_0 in location westus"
+az vm create --resource-group ok --location westus --name az_westus_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "36/37 Creating az_westus2_0 in location westus2"
+az vm create --resource-group ok --location westus2 --name az_westus2_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
+echo "37/37 Creating az_westus3_0 in location westus3"
+az vm create --resource-group ok --location westus3 --name az_westus3_0 --image Canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:20.04.202204190 --size Standard_D8ds_v4 --admin-username kien --admin-password Vps@123456789 --public-ip-sku Standard --no-wait
